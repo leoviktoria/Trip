@@ -1,6 +1,14 @@
 body {
     font-size: 17px;
     font-family: Hind, sans-serif;
+    color: #636368
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #e6535a;
+    text-decoration: none;
 }
 *::-webkit-input-placeholder {
     color: #666;
@@ -178,7 +186,7 @@ body {
     margin-top: 100px;
     margin-bottom: 40px;
 }
-.btn-default {
+.jumbotron .btn-default {
     background-color: #fdff5b;
     padding: 25px 50px;
     margin-top: 162px;
@@ -186,7 +194,52 @@ body {
 }
 .btn-default:hover {
     background-color: #e6535a;
+    transition: all 0.3s ease 0s;
 }
+.btn-default {
+    background-color: #fdff5b;
+}
+.bottom {
+    float: left;
+    background-color: #1b6d85;
+    overflow: hidden;
+}
+.soc_link a {
+    color: #d0d0d9;
+    font-size: 20px;
+    margin-right: 14px;
+}
+.soc_link a:hover {
+    color: #e6535a;
+    transition: color 0.3s ease 0s;
+}
+.btn_steve {
+    color: #e6535a;
+}
+.btn_steve:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s ease 0s;
+}
+.panel {
+    background-color: #fdff5b;
+}
+.input-group {
+    padding: 15px;
+}
+.page-header {
+    color:#000000 ;
+}
+.blq .panel {
+    background-color: #e6535a;
+
+}
+blockquote, blockquote footer {
+    border-left: none;
+    color: #fff;
+    font-size: 17.5px;
+}
+
+
 
 
 @media (min-width: 768px) and (max-width: 992px) {

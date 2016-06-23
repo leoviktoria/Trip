@@ -1,0 +1,218 @@
+body {
+    font-size: 17px;
+    font-family: Hind, sans-serif;
+}
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+.top_panel {
+    background-color: #1f1f26;
+    padding: 5px 45px;
+}
+.l_panel {
+    color: #818186;
+    font-size: 15px;
+}
+.search_submit {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0) ;
+    border: none;
+}
+.form_search {
+    position: relative;
+    height: 24px;
+    width: 223px;
+}
+.form_search_field {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none;
+    font-size: 1.1875rem;
+    height: 24px;
+    line-height: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 25px;/*от верхнего правого края расширяется на 25*/
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    color: #ffffff;
+}
+.search_submit  {
+    display: inline-block;
+    float: right;
+}
+.form_search_field:hover {
+    background-color: #fff;
+    color: #0f0f0f;
+    height: 24px;
+    border: none;
+    width: 200%;
+}
+.form_search_field:-moz-placeholder {
+    color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .form_search {float:right;}
+}
+@media (min-width: 992px) and (max-width: 1207px) {
+    /*.navbar-nav > li > a{padding: 5px;}*/
+    .navig{width: 100%;}
+}
+@media (min-width: 1025px) and (max-width: 1387px) {
+    ul {margin-left: 0;}
+
+}
+.nav_panel {
+    padding: 10px 45px;
+}
+.logo {
+    overflow: hidden;
+    margin-right: 20px;
+}
+.logo a {
+    display: block;
+    float: left;
+
+}
+.vrline {
+    height: 32px;
+    background: #e6e6e6;
+    width: 1px;
+    margin: 10px 20px;
+    float: left;
+}
+.logo_text {
+    color: #a2a2a9;
+    font-size: 9px;
+    margin-top: 22px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+/*NAVIGATION*/
+
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav li a:hover {
+    background: none;
+    color: #e6535a;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    background: none;
+    color: #e6535a;
+}
+/*.navbar-default .navbar-nav > .active > a {
+    color: #e6535a;
+}*/
+
+ .navbar-nav  {
+    margin-left: 110px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #1f1f26;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-toggle  {
+    background-color: #e6535a;
+}
+.social a {
+    color: #d0d0d9;
+    font-size: 20px;
+    margin-right: 14px;
+}
+.social a:hover {
+    color: #e6535a;
+    transition: color 0.3s ease 0s;
+}
+.social {
+    margin: 10px;
+}
+.carousel-indicators {
+    top: 45px;
+    left: 100%;
+    margin-right: -3%;
+    bottom: 10px;
+    list-style: outside none none;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 14%;
+    z-index: 15;
+    -moz-transform: rotate(90deg);
+}
+.jumbotron {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.text_slider {
+    color: #fff;
+    font-weight: 800;
+    font-size: larger;
+    font-family: "Ubuntu", sans-serif;
+}
+.jumbotron h1 {
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.btn-default {
+    background-color: #fdff5b;
+    padding: 25px 50px;
+    margin-top: 162px;
+    border: none;
+}
+.btn-default:hover {
+    background-color: #e6535a;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .form_search {float:right;}
+}
+@media (min-width: 768px) and (max-width: 843px) {
+    .jumbotron h1 {margin-top: 50px;}
+}
+@media (min-width: 844px) and (max-width: 876px){
+    .jumbotron h1 {margin-top: 40px;}
+}
+@media (min-width: 483px) and (max-width: 615px){
+    .jumbotron p {display: none;}
+}
+@media (min-width: 320px) and (max-width: 500px){
+    .jumbotron {display: none;}
+}
+@media (min-width: 992px) and (max-width: 1255px) {
+    .logo_text{display: none;}
+    .navbar-nav {margin-left: 0;}
+    .btn-default {margin-top: 50px;}}
+
+@media (min-width: 1255px) and (max-width: 1415px) {
+    .navbar-nav {margin-left: 0;}
+
+}
+@media (min-width: 992px) and (max-width: 1126px) {
+    .navbar-nav {float:right;}
+}

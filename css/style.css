@@ -86,6 +86,9 @@ a:hover {
     ul {margin-left: 0;}
 
 }
+.navbar-brand {
+    padding: 0;
+}
 .nav_panel {
     padding: 10px 45px;
 }
@@ -132,6 +135,10 @@ a:hover {
  .navbar-nav  {
     margin-left: 110px;
 }
+ .navbar-toggle {
+     margin-left: 5px;
+     margin-right: 0;
+ }
 
 .navbar-default .navbar-nav > li > a{
     color: #1f1f26;
@@ -167,6 +174,10 @@ a:hover {
     width: 14%;
     z-index: 15;
     -moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 .jumbotron {
     background-color: transparent;
@@ -208,6 +219,8 @@ a:hover {
     color: #d0d0d9;
     font-size: 20px;
     margin-right: 14px;
+    margin-top: 10px;
+    display: inline-block;
 }
 .soc_link a:hover {
     color: #e6535a;
@@ -238,8 +251,36 @@ blockquote, blockquote footer {
     color: #fff;
     font-size: 17.5px;
 }
+.footer {
+    background-color: #1f1f26;
+    padding: 38px 0;
+}
+.footer_text {
+    color: #818186;
+    font-size: 13px;
+    margin: 2px 0;
+}
 
+.btn {
+    border-radius: 0;
+}
+.banner {
+    position: relative;
+    display: block;
 
+}
+.text_banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 45px 35px;
+    text-align: center;
+
+}
+.banner_block a:hover {
+    color: #ffffff;
+}
 
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -251,7 +292,10 @@ blockquote, blockquote footer {
 @media (min-width: 844px) and (max-width: 876px){
     .jumbotron h1 {margin-top: 40px;}
 }
-@media (min-width: 483px) and (max-width: 615px){
+@media (min-width: 571px) and (max-width: 609px){
+    .jumbotron .container-fluid {padding-right: 40px;}
+}
+@media (min-width: 483px) and (max-width: 620px){
     .jumbotron p {display: none;}
 }
 @media (min-width: 320px) and (max-width: 500px){
@@ -260,12 +304,20 @@ blockquote, blockquote footer {
 @media (min-width: 992px) and (max-width: 1255px) {
     .logo_text{display: none;}
     .navbar-nav {margin-left: 0;}
-    .btn-default {margin-top: 50px;}}
+    .jumbotron .btn-default {margin-top: 90px;}
+}
+@media (min-width: 993px) and (max-width: 1054px){
 
+    .jumbotron h1 {margin-top: 37px;}
+}
+@media (min-width: 991px) and (max-width: 1126px) {
+    .navbar-nav {float:right;}
+}
 @media (min-width: 1255px) and (max-width: 1415px) {
     .navbar-nav {margin-left: 0;}
 
 }
 @media (min-width: 992px) and (max-width: 1126px) {
     .navbar-nav {float:right;}
+    .jumbotron .btn-default {margin-top: 50px;}
 }
